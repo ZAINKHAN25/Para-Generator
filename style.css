@@ -26,7 +26,7 @@ body{
     color: hsl(205, 86%, 17%);
 }
 
-.inputArea{
+#inputArea{
     display: flex;
     width: 100%;
     align-items: center;
@@ -35,12 +35,12 @@ body{
     margin-bottom: 8vh;
 }
 
-.inputArea p{
+#inputArea p{
     color: hsl(205, 86%, 17%);
     font-size: 200%;
 }
 
-.inputArea input[type=number]{
+#inputArea input[type=number]{
     width: 60px;
     height: 30px;
     border-radius: 10px;
@@ -50,7 +50,7 @@ body{
     font-size: 20px;
 }
 
-.inputArea [type=submit]{
+#inputArea [type=submit]{
     background-color: hsl(205, 67%, 50%);
     padding: 8px 15px;
     border-radius: 8px;
@@ -58,11 +58,11 @@ body{
     transition: .2s ease-in-out;
 }
 
-.inputArea [type=submit]:hover{
+#inputArea [type=submit]:hover{
     background-color: hsl(205, 100%, 77%);
 }
 
-.loremarea{
+#loremarea{
     display: flex;
     flex-direction: column;
     width: 80%;
