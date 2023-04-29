@@ -11,7 +11,6 @@ submit.addEventListener('click', ()=>{
 
 
     var value = parseInt(input.value) - 1;
-    var textSlected = text[value];
 
     if (input.value == ""|| NaN || input.value > 5 || input.value <= 0){
         loremarea.innerHTML = `<div class="card">Please write number between 1 to 5</div>`
